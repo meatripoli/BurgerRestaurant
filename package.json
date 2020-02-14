@@ -1,0 +1,26 @@
+{
+  "name": "BurgerRestaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meatripoli/BurgerRestaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meatripoli/BurgerRestaurant/issues"
+  },
+  "homepage": "https://github.com/meatripoli/BurgerRestaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "orm": "^5.0.5",
+    "sequelize": "^5.21.4"
+  }
+}
