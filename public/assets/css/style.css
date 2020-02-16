@@ -1,22 +1,23 @@
 body{
     background-color: orange;
+    font-size: 18px;
 }
-header{
-    margin: 20px;
+.row{
+    border-style: solid;
 }
 #title,#burgerimage{
     text-align: center;
     font-weight: bolder;
     font-size: larger;
-    margin-left: 15%;
+    margin-left: 20%;
+    border-style: solid;
 }
 #burgerinput{
-    margin-left: 20%;
-    height: 100px;
-    width: 300px;
+    text-align: center;   
 }
 #description{
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 18%;
+    
 }
