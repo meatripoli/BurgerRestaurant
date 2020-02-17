@@ -13,7 +13,10 @@ body{
     border-style: solid;
 }
 #burgerinput{
-    text-align: center;   
+    height: 100px;
+}
+#burgerbutton{
+    margin-top: 20%;
 }
 #description{
     text-align: center;

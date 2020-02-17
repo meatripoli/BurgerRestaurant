@@ -1,7 +1,7 @@
-module.exports = (sequelize,DataTypes){
+module.exports = function (sequelize,DataTypes){
     const Sandwich = sequelize.define('sandwich',{
     sandwiches_name:{
-        type: DataTypes.TEXT,
+        type: DataTypes.STRING,
         allowNull: false
     },
     ate: {
