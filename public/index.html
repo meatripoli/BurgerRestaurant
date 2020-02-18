@@ -6,7 +6,7 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <!--local stylesheet-->
-        <link rel="stylesheet" href="../public/assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body class="container">
         <header>
@@ -31,38 +31,22 @@
             </span>          
         </div>  
         <div class="row">
-            <div class="col" id="order">
-                <ul class="list-group">
+            <div class="col" >
+                <ul class="list-group" id="order">
                     <div class="row">
                         <li class="col-sm-8 list-group-item d-flex justify-content-between align-items-center">
-                            Cras justo odio
+                        1. test
                         </li>
-                        <button type="button" class="col-sm-4 list-group-item list-group-item-action" id="devourBotton">Devour it!</button>
-                    </div>
-                    <div class="row">
-                        <li class="col-sm-8 list-group-item d-flex justify-content-between align-items-center">
-                            Dapibus
-                        </li>
-                        <button type="button" class="col-sm-4 list-group-item list-group-item-action" id="devourBotton">Devour it!</button>                   
-                    </div>
-                    <div class="row">
-                        <li class="col-sm-8 list-group-item d-flex justify-content-between align-items-center">
-                            Morbi leo risus
-                        </li>
-                        <button type="button" class="col-sm-4 list-group-item list-group-item-action" id="devourBotton">Devour it!</button>
+                        <button type="button" class="col-sm-4 list-group-item list-group-item-action" id="devourBotton" data-id = "1">
+                            Devour it!
+                        </button>
                     </div>
                 </ul>
             </div>
-            <div class="col" id="devoured">
-                <ul class="list-group">
-                    <li class="list-group-item disabled">Cras justo odio</li>
-                    <li class="list-group-item disabled">Dapibus ac facilisis in</li>
-                    <li class="list-group-item disabled">Morbi leo risus</li>
-                    <li class="list-group-item disabled">Porta ac consectetur ac</li>
-                    <li class="list-group-item disabled">Vestibulum at eros</li>
-                </ul>
+            <div class="col" >
+                <ul class="list-group" id="devoured"></ul>
             </div>
         </div>
-        <script src="../public/assets/js/main.js"></script>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>

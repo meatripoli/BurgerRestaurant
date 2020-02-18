@@ -2,21 +2,18 @@ body{
     background-color: orange;
     font-size: 18px;
 }
-.row{
-    border-style: solid;
-}
+
 #title,#burgerimage{
     text-align: center;
     font-weight: bolder;
     font-size: larger;
     margin-left: 20%;
-    border-style: solid;
 }
 #burgerinput{
     height: 100px;
 }
 #burgerbutton{
-    margin-top: 20%;
+    margin-top: 35px;
 }
 #description{
     text-align: center;
